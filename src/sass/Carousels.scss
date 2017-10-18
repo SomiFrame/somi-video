@@ -1,0 +1,16 @@
+.carousel{
+    .carousel-inner{
+        .item{
+            a{
+                display: block;
+                height: 400px;
+                width: 600px;
+                margin: auto;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
