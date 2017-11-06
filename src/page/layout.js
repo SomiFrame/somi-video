@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import Header from '../js/Header.js';
 import Home from './home.js';
-import Play from './play.js';
+import VideoInfo from './VideoInfo.js';
 import {
     BrowserRouter as Router,
     Route,
@@ -14,7 +14,7 @@ const Layout = ()=>(
         <div>
             <Header />
             <Route exact path="/" component={Home}/>
-            <Route exact path="/play" component={Play}/>
+            <Route exact path="/videoinfo" component={VideoInfo}/>
         </div>
     </Router>
 );
