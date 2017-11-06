@@ -1,4 +1,9 @@
-.jumbotron{
-    .info-background{
+.episode-container{
+    .episode-list{
+        .episode-item{
+            margin: 10px;
+            list-style-type: none; 
+            display: inline-block;
+        }
     }
 }
