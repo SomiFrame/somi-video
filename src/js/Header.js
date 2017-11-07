@@ -19,7 +19,7 @@ class Header extends Component {
             <Navbar inverse>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a className="btn" href="#">
+                            <a className="btn" href="/">
                                 <img className="app-logo" src={somi_logo}/>
                             </a>
                         </Navbar.Brand>
